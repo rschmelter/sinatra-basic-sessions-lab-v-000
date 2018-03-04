@@ -8,5 +8,7 @@ class App < Sinatra::Base
   end
 
   get '/' do
-  end 
+    erb :index
+  end
+  
 end
